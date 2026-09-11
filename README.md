@@ -99,8 +99,6 @@ Nesta seção estão registrados os testes de prompts, iterações e refinamento
 ---
 
 ### 3. Prompts Reutilizáveis para Revisão
-
-```text
 [PROMPT REUTILIZÁVEL 1 - QUIZ TÉCNICO DE REDES E PENTEST]
 "Atue como um instrutor de Cibersegurança. Crie um simulado de 5 perguntas de múltipla escolha com foco na fase de Reconhecimento e Enumeração de Redes. Forneça o gabarito comentado ao final."
 
@@ -137,3 +135,4 @@ Caderno Interativo no NotebookLM: Cybersegurança, Redes & Pentest
 [cite: 1]
 
 Áudio no Google Drive: Podcast Sentinela Digital #01
+---
