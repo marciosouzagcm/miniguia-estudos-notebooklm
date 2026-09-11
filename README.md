@@ -1,6 +1,6 @@
 Markdown
 <p align="center">
-  <img src="media/logo-sentinela-digital.jpg" alt="Sentinela Digital Logo" width="300"/>
+  <img src="media/Logotipo%20digital%20Sentinela.jpg" alt="Logotipo Digital Sentinela" width="300"/>
 </p>
 
 # 🛡️ Sentinela Digital: Caderno Temático em Cibersegurança, Redes & Pentest
