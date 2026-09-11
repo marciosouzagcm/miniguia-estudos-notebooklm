@@ -106,6 +106,8 @@ Nesta seção estão registrados os testes de prompts, iterações e refinamento
 
 [PROMPT REUTILIZÁVEL 2 - CHEATSHEET DE KALI LINUX]
 "Resuma os 10 comandos mais utilizados no Kali Linux para auditoria de redes em formato de tabela Markdown, contendo: Comando, Parâmetro de Exemplo e Descrição Operacional."
+
+---
 🎧 Conteúdo Multimodal e Mídia
 1. Resumo em Áudio (Audio Overview do NotebookLM)
 O recurso Audio Overview do NotebookLM foi utilizado para gerar um podcast técnico que sintetiza as fontes de estudo.
