@@ -1,5 +1,9 @@
 Markdown
-# 🛡️ Caderno Temático: Cibersegurança, Infraestrutura de Redes e Pentest com NotebookLM
+<p align="center">
+  <img src="media/logo-sentinela-digital.jpg" alt="Sentinela Digital Logo" width="300"/>
+</p>
+
+# 🛡️ Sentinela Digital: Caderno Temático em Cibersegurança, Redes & Pentest
 
 > Projeto desenvolvido para o Desafio de Aprendizagem Ativa com Inteligência Artificial da Digital Innovation One (DIO).
 
@@ -7,7 +11,7 @@ Markdown
 
 ## 📌 Contexto e Objetivos
 
-O objetivo deste projeto é estruturar uma jornada de aprendizado ativa nos pilares de **Infraestrutura de Redes, Sistema Kali Linux e Metodologias de Pentest**. Utilizando o **NotebookLM** como motor central de sintetização e curadoria, este repositório transforma fontes extensas de documentação técnica e cursos em um ambiente interativo de estudos, miniguias, engenharia de prompts e geração de conteúdo técnico multimodal.
+O **Sentinela Digital** é um ecossistema de aprendizagem contínua estruturado nos pilares de **Infraestrutura de Redes, Sistema Kali Linux e Metodologias de Pentest**. Utilizando o **NotebookLM** como motor central de sintetização e curadoria, este repositório transforma fontes extensas de documentação técnica e cursos em um ambiente interativo de estudos, miniguias, engenharia de prompts e geração de conteúdo técnico multimodal.
 
 **Objetivos de Aprendizado:**
 - Dominar a arquitetura do modelo OSI, pilha TCP/IP e protocolos de rede sob a ótica de segurança ofensiva e defensiva.
@@ -21,16 +25,20 @@ O objetivo deste projeto é estruturar uma jornada de aprendizado ativa nos pila
 
 A base de conhecimento foi organizada e carregada no NotebookLM através de uma curadoria estruturada de links, vídeos e documentações oficiais:
 
+### 🤖 Resumo Automático Sintetizado pelo NotebookLM
+> *"Este documento constitui um guia curricular abrangente focado em cibersegurança e na exploração de vulnerabilidades digitais através do Kali Linux. A lista organiza diversos recursos educacionais que cobrem desde infraestrutura de redes e arquitetura de computadores até técnicas avançadas de pentesting. Estão incluídas referências essenciais para o estudo de criptografia, segurança da informação e a administração de sistemas Linux. Além das competências técnicas, a curadoria integra bases matemáticas fundamentais e o desenvolvimento de competências interpessoais necessárias para o mercado tecnológico. O conjunto destas fontes oferece um roteiro estruturado para quem procura especialização em proteção de dados e análise de sistemas."*
+
+### 🔗 Relação Completa dos Materiais Carregados:
 1. **Documentação Oficial Kali Linux & PTES:**
-   - [Kali Linux Official Docs & Training](https://www.kali.org/docs/)[cite: 2]
-   - [Penetration Testing Execution Standard (PTES)](http://www.pentest-standard.org/)[cite: 2]
-   - [OWASP Top 10 Application Security Risks](https://owasp.org/www-project-top-ten/)[cite: 2]
+   - [Kali Linux Official Docs & Training](https://www.kali.org/docs/)[cite: 1]
+   - [Penetration Testing Execution Standard (PTES)](http://www.pentest-standard.org/)[cite: 1]
+   - [OWASP Top 10 Application Security Risks](https://owasp.org/www-project-top-ten/)[cite: 1]
 2. **Infraestrutura e Redes de Computadores:**
-   - Repositório [Infraestrutura (Robson Vaamonde / GitHub)](https://github.com/vaamonde/infraestrutura)[cite: 2]
-   - Repositório [Universidade Livre - Ciência da Computação](https://github.com/Universidade-Livre)[cite: 2]
+   - Repositório [Infraestrutura (Robson Vaamonde / GitHub)](https://github.com/vaamonde/infraestrutura)[cite: 1]
+   - Repositório [Universidade Livre - Ciência da Computação](https://github.com/Universidade-Livre)[cite: 1]
    - Cursos de Redes e Hardware (Curso em Vídeo & Prof. Ramos)
 3. **Sistemas Operacionais, Criptografia e Fundamentos:**
-   - Cursos de Linux CLI, Segurança da Informação, Criptografia e Bases Numéricas (Binário e Hexadecimal).
+   - Cursos de Linux CLI, Segurança da Informação, Criptografia e Bases Numéricas (Binário e Hexadecimal)[cite: 1].
 
 ---
 
@@ -59,15 +67,15 @@ Nesta seção estão registrados os testes de prompts, iterações e refinamento
 ### 1. Resumo Estruturado do Assunto
 
 #### A. Infraestrutura e Redes
-- **Modelo OSI vs. TCP/IP:** Compreensão da camada física até a aplicação, destacando Transporte (TCP/UDP) e Rede (IP).
-- **Análise de Tráfego:** Mapeamento de portas abertas, enumeração de serviços e inspeção de pacotes via Wireshark e Nmap[cite: 2].
+- **Modelo OSI vs. TCP/IP:** Compreensão da camada física até a aplicação, destacando Transporte (TCP/UDP) e Rede (IP)[cite: 1].
+- **Análise de Tráfego:** Mapeamento de portas abertas, enumeração de serviços e inspeção de pacotes via Wireshark e Nmap[cite: 1].
 
 #### B. Kali Linux & Ferramentas
-- **Administração de Sistema:** Navegação avançada via CLI, permissões de arquivos (`chmod`, `chown`) e gerenciamento de processos[cite: 2].
+- **Administração de Sistema:** Navegação avançada via CLI, permissões de arquivos (`chmod`, `chown`) e gerenciamento de processos[cite: 1].
 - **Stack Principal:**
-  - `Nmap`: Descoberta de ativos e varredura de portas abertas[cite: 2].
+  - `Nmap`: Descoberta de ativos e varredura de portas abertas[cite: 1].
   - `Metasploit Framework`: Desenvolvimento, seleção e execução de exploits.
-  - `Burp Suite`: Proxy de intercepção para análise de requisições HTTP/HTTPS[cite: 2].
+  - `Burp Suite`: Proxy de intercepção para análise de requisições HTTP/HTTPS[cite: 1].
 
 #### C. Metodologia de Pentest (PTES)
 1. **Pré-engajamento:** Definição do escopo, regras de engajamento (RoE) e permissões legais.
@@ -99,14 +107,12 @@ Nesta seção estão registrados os testes de prompts, iterações e refinamento
 [PROMPT REUTILIZÁVEL 2 - CHEATSHEET DE KALI LINUX]
 "Resuma os 10 comandos mais utilizados no Kali Linux para auditoria de redes em formato de tabela Markdown, contendo: Comando, Parâmetro de Exemplo e Descrição Operacional."
 🎧 Conteúdo Multimodal e Mídia
-1. Resumo em Áudio (Audio Overview no NotebookLM)
-O recurso Audio Overview do NotebookLM foi utilizado para gerar um debate sintético em áudio (formato Podcast) a partir dos materiais carregados:
+1. Resumo em Áudio (Audio Overview do NotebookLM)
+O recurso Audio Overview do NotebookLM foi utilizado para gerar um podcast técnico que sintetiza as fontes de estudo.
 
-Objetivo: Fixação passiva e revisão dos conceitos de redes, Kali Linux e Pentest.
+🎙️ Episódio #01: Fundamentos de Redes, Kali Linux e Metodologias de Pentest
 
-Caderno do NotebookLM: Cybersegurança, Redes & Pentest
-
-[cite: 2]
+🎧 Ouvir o Áudio Completo: ▶️ Clique aqui para reproduzir o áudio no Google Drive
 
 2. Estrutura de Conteúdo para Redes Sociais (Carrossel LinkedIn / Instagram)
 Título do Post: Como funciona um Pentest na Prática? (Do Reconhecimento ao Relatório)
@@ -126,4 +132,6 @@ Slide 6: 💡 Quer aprender mais? Acesse o repositório com meu caderno temátic
 🔗 Links Relevantes
 Caderno Interativo no NotebookLM: Cybersegurança, Redes & Pentest
 
-[cite: 2]
+[cite: 1]
+
+Áudio no Google Drive: Podcast Sentinela Digital #01
